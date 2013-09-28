@@ -1,0 +1,192 @@
+/* This is a modified version of the BlueBliss template by Bryant Smith. 
+Template can be found at http://www.templatebasics.com/web_template/blue-bliss */
+
+html {overflow: auto; height: 99%;}
+
+body {
+	background: #FFFFFF;
+	height: 99%;
+	margin: 0;
+	padding: 0;
+	line-height: 160%;
+	text-align: center;
+}
+
+* {
+	font-size: 10pt; 
+	font-family: Helvetica, Arial, sans-serif; 
+	color: #000000;
+	text-align: left;
+}
+
+/* Print header for Resume page*/
+#onlyprint {display: none;}
+
+
+/*Containers*/
+
+
+#mainContentArea {
+	margin: 0 auto; 
+	display: table; 
+	height: 100%;  
+	position: relative; 
+	overflow: auto; 
+	width: 600px;
+}
+
+#contentBox {margin-top: 25px;}
+
+/*top right link tabs*/
+.link, .linkActive {
+	width: 75px;
+	margin-right: 10px;
+	margin-top: 24px;
+	float: left;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url(./images/tab.gif);
+	position: relative;
+	bottom: 0px;
+}
+
+.link:hover {background-image: url(./images/tab2.gif);}
+
+a {text-decoration: none;}
+
+.link a {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.pageContent a {
+	font-weight: bold;
+}
+
+.pageContent a:hover {
+	text-decoration: underline;
+}
+
+#linkGroup {
+	margin-right: 10px;
+	height: 40px;
+	width: 600px;
+}
+
+#title {
+	width: 230px;
+	height: 40px;
+	margin-right: 20px;
+	margin-top: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+}
+
+.contentTitle {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #213E74;
+	font-size: 19px;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	width: 573px;
+}
+
+.contentSubtitle {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #213E74;
+	font-size: 19px;
+	font-style: italic;
+	margin-left: 15px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	width: 573px;
+}
+
+
+.pageContent {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 560px;
+}
+
+/* box where each page's main text resides */
+#blueBox {
+	position: absolute;
+	vertical-align: middle;
+	background-color: #E7EDF8;
+	width: 600px;
+	clear: both;
+}
+
+#header {
+	width: 600px;
+	height: 20px;
+	background-color: #FFFFFF;
+	background-image: url(./images/header.gif);
+	background-repeat: no-repeat;
+}
+
+#footer {
+	width: 600px;
+	height: 20px;
+	background-color: #FFFFFF;
+	background-image: url(./images/footer.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-right: 10px;
+	clear: both;
+	color: #213E74;
+}
+
+#footer a {font-size: 12px; color: #213E74;}
+
+#footer a:hover {text-decoration: underline;}
+
+html, body {text-align: center;}
+
+p {text-align: left;}
+
+img {
+	padding: 1px;
+	border: 1px solid #021A40;
+	background-color: #0046B5;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	display: block;
+}
+
+#pics {
+	display: inline;
+	background: #FFFFFF;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+ul {margin-top: -10px;}
+
+ul ul {margin-top: auto;}
+
+li {list-style-type: square;}
+
+/** {border: 1px solid red !important;}*/	

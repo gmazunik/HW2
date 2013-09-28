@@ -1,0 +1,73 @@
+/* Print template modified from http://www.webcredible.co.uk/user-friendly-resources/css/print-stylesheet.shtml */
+
+
+/* Remove unwanted elements */
+#header, #footer, #linkGroup, #link, #title {display: none;}
+
+/* Ensure the content spans the full width */
+#mainContentArea, #contentBox, #blueBox, #contentTitle, #contentSubtitle, #pageContent {
+	width: 100%;
+	margin: 0;
+	float: none;
+}
+
+/* Improve color contrast of links */
+a:link, a:visited {color: #781351;}
+	
+
+/* Print-only header */
+@media print {
+  #onlyprint {display: block;
+  						text-align: center;
+  						float: none !important;
+  						padding-top: 10px;
+  						padding-bottom: 20px;
+	}
+}
+
+#onlyprint h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+/* ------modified base stylesheet below------ */
+
+
+html {overflow: auto; height: 99%;}
+
+body {
+	background: #FFFFFF;
+	height: 99%;
+	margin: 0;
+	padding: 0;
+	line-height: 160%;
+	text-align: center;
+}
+
+* {
+	font-size: 10pt; 
+	font-family: Helvetica, Arial, sans-serif; 
+	color: #000000;
+	text-align: left;
+}
+
+
+html, body {text-align: center;}
+
+p {text-align: left;}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+ul {margin-top: -10px;}
+
+ul ul {margin-top: auto;}
+
+li {list-style-type: square;}
